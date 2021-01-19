@@ -31,3 +31,6 @@ https://www.bilibili.com/video/BV1Qp4y1Y7YN?p=101
 1、HotPagesNetworkFlow  
 统计10分钟内，访问前三的url，5秒统计一次  
 数据时间格式转换  
+
+2、HotPagesNetworkFlowFilter
+过滤掉.css和.js结尾的日志  
