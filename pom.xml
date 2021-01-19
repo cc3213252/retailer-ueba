@@ -6,9 +6,11 @@
 
     <groupId>com.blueegg</groupId>
     <artifactId>retailer-ueba</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>HotItemsAnalysis</module>
+        <module>NetworkFlowAnalysis</module>
     </modules>
 
     <properties>

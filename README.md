@@ -25,3 +25,9 @@ https://www.bilibili.com/video/BV1Qp4y1Y7YN?p=101
 
 5、HotItemsWithPureSql  
 纯sql方式实现    
+
+## 热门流量统计
+
+1、HotPagesNetworkFlow  
+统计10分钟内，访问前三的url，5秒统计一次  
+数据时间格式转换  
