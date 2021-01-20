@@ -40,3 +40,8 @@ https://www.bilibili.com/video/BV1Qp4y1Y7YN?p=101
 
 4、TopNHotPagesFixStatus  
 解决topN中url重复问题  
+
+## pv统计
+
+1、PageView  
+统计每小时访问条数  
