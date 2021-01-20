@@ -51,3 +51,8 @@ https://www.bilibili.com/video/BV1Qp4y1Y7YN?p=101
 
 3、PageViewKeyEnd  
 解决中间结果刷屏问题  
+
+## uv统计
+
+1、UniqueVisitor  
+统计每小时独立用户数  
