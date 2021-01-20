@@ -46,3 +46,12 @@ nc -lk 7777
 83.149.9.216 - - 17/05/2015:10:25:23 +0000 GET /presentations  
 83.149.9.216 - - 17/05/2015:10:25:54 +0000 GET /presentations  watermark是53，50这个窗口关了
 83.149.9.216 - - 17/05/2015:10:25:51 +0000 GET /presentations  输出到侧输出流
+
+## HotPagesNetworkFlowWatermark这个程序状态bug产生的原因
+
+```text
+窗口结束时间：2015-05-17 10:25:45.0
+NO1: 页面URL = /presentations	热门度 = 2
+NO2: 页面URL = /presentations	热门度 = 1
+```
+定时器里面，只对windowEnd分组了，没有对url分组，迟到数据来一条会处理一条

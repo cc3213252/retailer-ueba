@@ -40,7 +40,8 @@ object HotPagesNetworkFlowWatermark {
 
     val resultStream = aggStream
       .keyBy(_.windowEnd)
-      .process(new TopNHotPages(3))
+//      .process(new TopNHotPages(3))  // 有重复url状态bug
+      .process(new TopNHotPagesFixStatus(3))
 
     dataStream.print("data")
     aggStream.print("agg")
