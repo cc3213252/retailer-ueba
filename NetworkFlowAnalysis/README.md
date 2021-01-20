@@ -55,3 +55,4 @@ NO1: 页面URL = /presentations	热门度 = 2
 NO2: 页面URL = /presentations	热门度 = 1
 ```
 定时器里面，只对windowEnd分组了，没有对url分组，迟到数据来一条会处理一条
+

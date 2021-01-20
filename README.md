@@ -45,3 +45,9 @@ https://www.bilibili.com/video/BV1Qp4y1Y7YN?p=101
 
 1、PageView  
 统计每小时访问条数  
+
+2、PageViewKey  
+解决并行度无法起作用问题  
+
+3、PageViewKeyEnd  
+解决中间结果刷屏问题  
