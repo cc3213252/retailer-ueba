@@ -59,3 +59,9 @@ https://www.bilibili.com/video/BV1Qp4y1Y7YN?p=101
 
 2、UvWithBloom  
 布隆过滤器解决set操作内存可能爆掉问题  
+
+## app市场推广统计
+
+1、AppMarketByChannel  
+分渠道市场统计，需要按两个字段分组的场景，process代替aggregate的实现
+
