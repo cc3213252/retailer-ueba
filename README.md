@@ -72,3 +72,8 @@ https://www.bilibili.com/video/BV1Qp4y1Y7YN?p=101
 
 2、AdClickAnalysisFilter  
 把刷单用户排除，1小时内下单超过100次报警     
+
+## 恶意登陆检测
+
+1、LoginFail  
+2秒内连续两次登陆失败告警  
