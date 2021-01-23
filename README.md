@@ -65,5 +65,10 @@ https://www.bilibili.com/video/BV1Qp4y1Y7YN?p=101
 1、AppMarketByChannel  
 分渠道市场统计，需要按两个字段分组的场景，process代替aggregate的实现
 
-2、AdClickAnalysis  
-统计一天页面广告点击量，和PageView是一样的    
+## 页面广告分析
+
+1、AdClickAnalysis  
+统计一天页面广告点击量，和PageView是一样的   
+
+2、AdClickAnalysisFilter  
+把刷单用户排除，1小时内下单超过100次报警     
