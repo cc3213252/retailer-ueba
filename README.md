@@ -77,3 +77,6 @@ https://www.bilibili.com/video/BV1Qp4y1Y7YN?p=101
 
 1、LoginFail  
 2秒内连续两次登陆失败告警  
+
+2、LoginFailAdvance  
+时效性做了改进，1秒出现两次失败了就报警  
