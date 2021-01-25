@@ -80,3 +80,12 @@ https://www.bilibili.com/video/BV1Qp4y1Y7YN?p=101
 
 2、LoginFailAdvance  
 时效性做了改进，1秒出现两次失败了就报警  
+
+3、LoginFailWithCep  
+cep实现  
+
+4、LoginFailWithCep2  
+5秒内有3次失败告警  
+
+5、LoginFailWithCep3  
+优化后cep实现  
