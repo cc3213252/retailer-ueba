@@ -99,4 +99,7 @@ cep实现订单成功支付的和15分钟内未支付超时的
 process实现  
 
 3、TxMatch  
-订单流和到账流合流输出  
+订单流和到账流合流输出，实时对账    
+
+4、TxMatchWithJoin  
+合流输出window join实现  
